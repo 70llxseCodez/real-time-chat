@@ -1,0 +1,36 @@
+.bodyChat {
+    height: 500px;
+    overflow-y: auto;
+    border: 1px solid #000;
+    width: 400px;
+}
+
+input {
+    width: 200px;
+    display: block;
+    height: 30px;
+}
+
+.footerInput {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.you {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.he {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
